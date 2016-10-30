@@ -1,0 +1,20 @@
+{
+
+    "intents": [{
+
+        "intent": "Start",
+      "slots" : [{"name":"first","type":"AMAZON.NUMBER"},{"name":"second","type":"AMAZON.NUMBER"},{"name":"third","type":"AMAZON.NUMBER"}]
+
+    }, {
+
+        "intent": "End"
+
+    },
+      {
+
+       "intent": "Play",
+      "slots" : [{"name":"first","type":"AMAZON.NUMBER"},{"name":"second","type":"AMAZON.NUMBER"},{"name":"third","type":"AMAZON.NUMBER"}]
+
+    }]
+
+}
