@@ -46,7 +46,7 @@ def startRecording(first,second,third):
 @ask.intent("End")
 def endRecording():
     msg = render_template('end')
-    response = requests.get(url+"end")
+    response = requests.get(url+"msg?cmd=end")
     return statement(msg)
 
 @ask.intent("Play",convert={'first':int,'second':int,'third':int})
